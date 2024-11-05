@@ -1,0 +1,46 @@
+/* Reset some defaults */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Press Start 2P', sans-serif; /* For retro vibe, Google Fonts has this */
+    background-color: #121212;
+    color: #ececec;
+    text-align: center;
+}
+
+header {
+    background-color: #282828;
+    padding: 20px;
+    color: #f0db4f; /* Retro neon yellow */
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav a {
+    color: #61dafb; /* Neon blue */
+    text-decoration: none;
+    padding: 8px 15px;
+    display: inline-block;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+#about, #music, #videos, #contact {
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+footer {
+    background-color: #282828;
+    padding: 10px;
+    color: #aaa;
+}
